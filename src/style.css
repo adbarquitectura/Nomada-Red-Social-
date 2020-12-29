@@ -1,0 +1,1799 @@
+.body {
+    background: linear-gradient(180deg, #FFFFFF 6.25%, #C5E0EF 35.94%, #2979FF 76.04%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    height: auto;
+}
+
+.body2 {
+    margin: 0;
+}
+
+.hide {
+    display: none !important;
+}
+
+input {
+    width: 60%;
+    display: block;
+    margin: 1rem auto auto auto;
+    padding: 1rem 1rem 0 1rem;
+    border-style: none;
+    border-bottom: solid #ffff 1px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#dataregistro>input::placeholder {
+    color: #ffffff;
+}
+
+#sign-wrong-password {
+    width:70%;
+    margin:auto;
+    padding: .8rem .3rem .3rem .3rem; 
+}
+#sign-wrong-password>span{
+    font-family: 'Roboto';
+    color: #ffffff;
+}
+#sign-email-not-found {
+    width:70%;
+    margin:auto;
+    padding: .8rem .3rem .3rem .3rem; 
+}
+#sign-email-not-found>span{
+    font-family: 'Roboto';
+    color: #ffffff;
+}
+.msg-register {
+    width: 70%;
+    margin:auto;
+    padding: .8rem 0 .3rem 0;
+}
+.msg-register>span {
+    font-family: 'Roboto';
+    align-items: center;
+}
+
+
+/*titulos*/
+
+h2 {
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    text-align: start;
+    margin: 0.5rem 0 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+h3 {
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0.5rem 0 0.5rem 1rem;
+    font-size: 1rem; 
+}
+h4 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem 0 1rem .2rem;
+}
+
+h5 {
+    color: #004ECB;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 400;
+    margin-top: .5rem;
+    word-spacing: 0.6rem;
+}
+
+.buttonWhite {
+    width: 234px;
+    height: 35px;
+    background: #FFFBFB;
+    border-radius: 10px;
+    border: transparent;
+    color: #2979FF;
+    font-size: 1rem;
+    display: block;
+    margin: 2rem auto auto auto;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+    color: #2979FF;
+}
+
+.logo-inicio {
+    width: 55%;
+    height: auto;
+    display: block;
+    margin: 60% auto auto auto;
+}
+
+.center {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgRedonda {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+
+/* Muro */
+
+.head {
+    background: linear-gradient(180deg, #C5E0EF 0%, #C5E0EF 0.01%, #D9EAF4 39.06%, rgba(227, 240, 247, 0.6) 70.83%, rgba(255, 255, 255, 0.24) 100%, rgba(255, 255, 255, 0.2) 100%), #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+    align-items: center;
+}
+.hidden {
+    visibility: hidden;
+}
+.search-name {
+    width: 50%;
+    border: solid 1px #2979FF;
+    border-radius: 5px;
+    color: #4F4F4F;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1rem;
+    padding:.2rem;
+}
+.lupa {
+    margin-left: .5rem;
+    margin-right: 1rem;
+    color: #4F4F4F;
+    font-size: 1.4rem;
+}
+.bar{
+    margin-right: 0;
+    color: #4F4F4F;
+    font-size: 1.4rem;
+}
+
+.signout {
+    align-items: center;
+    width:35%;
+    margin-left:auto;
+    padding: .3rem;
+}
+.signout>span {
+    font-family: 'roboto';
+    font-size: 1rem;
+    margin:auto 0 auto 0;
+    color:#4F4F4F;
+}
+.signout>i {
+    font-size: 1rem;
+    color:#4F4F4F; 
+}
+
+.profile-picture {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.public {
+    border: solid 1px #004ECB;
+    border-radius: 10px;
+    width: 80%;
+    padding: .5rem;
+    margin: 1rem auto .2rem auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputpublic {
+    border: #ffffff;
+    width: 90%;
+    margin: auto 0 auto 5%;
+    text-align: center;
+    padding: .5rem;
+    color: #4F4F4F;
+}
+
+.inputpublic::placeholder {
+    color: #004ECB;
+}
+
+#publish {
+    font-family: 'Roboto';
+    font-size: 1rem;
+    color: #004ECB;
+    margin: 1% 0 5% 75%;
+    cursor: pointer;
+}
+#load {
+    display: flex;
+    justify-content: flex-end;
+}
+.load-picture{
+    font-family: 'roboto';
+    font-size: .9rem;
+    color:#4F4F4F;
+}
+input[type="file"] {
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+}
+.flex {
+    display:flex;
+}
+#load-photo{
+    right: 0;
+    margin: auto 0 auto auto;
+    padding: 0;
+    cursor: pointer;
+}
+
+.button2 {
+    width: 80%;
+    height: 3rem;
+    background: #2979FF;
+    border-radius: 10px;
+    border: transparent;
+    color: #ffff;
+    font-size: 1rem;
+    display: block;
+    margin: 1.5rem auto auto auto;
+    font-weight: 500;
+}
+
+.disabled {
+    opacity:50%
+}
+
+.load {
+    color: green;
+    margin: 0 0 0 .4rem;
+    font-size: 1rem;
+}
+
+
+/*logo de las secciones de la app */
+
+.logo {
+    margin-right: 5%;
+    width: 35%;
+    height: 25px;
+}
+
+
+/* barra inferior */
+
+#barra-inferior {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    clear: both;
+    box-sizing: border-box;
+}
+
+#barra {
+    display: flex;
+    width: 100%;
+    background-color: #EDEDED;
+    padding: .5rem ;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+#barra>span{
+    margin:0;
+}
+
+.iconos-barra {
+    font-size: 2rem;
+    color: #4F4F4F
+}
+
+
+/* copyright correspondiente a la seccion de inicio de sesion */
+
+.copyright {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffff;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    margin-top: 15%;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(255, 255, 255);
+    /* Fallback color */
+    background-color: rgba(255, 255, 255, 0.20);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 80%;
+    height: auto;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+fieldset {
+    background-color: #EDEDED;
+    border-radius: 1rem;
+    border-style: none;
+    line-height: 0.1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    height: auto;
+}
+
+
+/* The Close Button */
+
+.close-modal {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+fieldset input {
+    width: 80%;
+    display: block;
+    margin: 0.3rem auto auto auto;
+    padding: 0.6rem 1rem 0 1rem;
+    border-style: none;
+    border-radius: 0.8rem;
+    background-color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #4F4F4F;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+button {
+    width: 234px;
+    height: 35px;
+    background: #2979FF;
+    border-radius: 10px;
+    border: transparent;
+    color: #ffff;
+    font-family: 'roboto';
+    font-size: 1.2rem;
+    display: block;
+    margin: 2rem auto auto auto;
+    font-weight: 500;
+}
+
+#container-post{
+    /*position: fixed;*/ 
+    margin-top: 1%;    
+    width: 100%; 
+    overflow-y: scroll; 
+    box-sizing: border-box;
+    padding: 1.5rem;
+    margin-bottom: 10%;
+}
+
+#container-post::-webkit-scrollbar {
+    width: 8px;     
+    height: 8px;   
+    display: none; 
+}
+#post-note div.edit-post{
+    display: none;
+} 
+.edit-post>span{
+    right: 0;
+    font-family: 'roboto';
+    font-size: .9rem;
+    color:#4F4F4F;
+    margin-right: 2%;
+}
+#post-note{
+    width: auto;
+    height: auto;
+    /*overflow: hidden;*/
+    background: #C5E0EF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1rem;
+}
+#post-note div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+    padding: .3rem .1rem 0 .1rem; 
+}
+
+#post-note div>i{
+    margin:0 5% 0 0 ;
+}
+
+.post-text {
+    font-family: 'Roboto';
+    margin: auto auto auto 0;
+    font-size: .9rem;
+    color: #4F4F4F;
+    text-align:left ;  
+}
+
+.date {
+    font-family: 'roboto';
+    font-size: .8rem;
+    text-align: right;
+    margin: 0 .3rem 0 0;
+    color: #4F4F4F;
+}
+
+.img-cuadrada{
+    margin:auto;
+    width: 95%;
+    max-height: 280px;
+    object-fit: cover;
+}
+
+.like-comment{
+    font-family: 'roboto';
+    font-size: 1rem;
+    color: #4F4F4F;
+    margin-right: .1rem;
+    cursor: pointer;
+}
+#picture-perfil-post{
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    border: solid #ffff 2px;
+    margin: 0 2% .2rem 5%;
+    display: flex;
+}
+.edit-input{
+    border: solid 1.5px #ffffff;
+    border-radius: 8px;
+    min-width: 200px;
+    margin: auto 0 auto 0;
+    text-align: center;
+    padding: .5rem;
+    color: #4F4F4F;
+}
+.save-btn {
+    width: 13%;
+    height: 28px;
+    background: #2979FF;
+    border-radius: 10px;
+    border: transparent;
+    color: #ffff;
+    font-family: 'roboto';
+    font-size: 1rem;
+    margin: auto 0 auto 2%;
+}
+.delete-btn {
+    width: 35%;
+    height: 28px;
+    background: #2979FF;
+    border-radius: 10px;
+    border: transparent;
+    color: #ffff;
+    font-family: 'roboto';
+    font-size: 1rem;
+    margin: auto auto auto 10%;
+}
+.close-btn {
+    width: 35%;
+    height: 28px;
+    background: #2979FF;
+    border-radius: 10px;
+    border: transparent;
+    color: #ffff;
+    font-family: 'roboto';
+    font-size: 1rem;
+    margin: auto;
+}
+.modal-reminder{   
+    background-color: #FEFEFE;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 80%;
+    height: auto;
+    margin-top: 95%;
+    margin-bottom: 5%;
+}
+/*destinos destacados */
+#contenedor {
+    margin-bottom: 11%;
+}
+
+#destiny-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#destacado {
+    color: #4F4F4F;
+    font-size: 1.2rem;
+    font-family: 'roboto';
+    margin-left: .2rem;
+}
+.icon {
+    font-size: 1.2rem;
+    color:#4F4F4F;
+    cursor: pointer;
+}
+
+.text {
+    font-family: 'roboto';
+    font-size: .9rem;
+    color: #4F4F4F;
+    text-align: center;
+    margin:1rem;
+}
+#destinos {
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding:.5rem;
+}
+
+#box {
+    width: 45%;
+    height: auto;
+    box-sizing: border-box;
+    margin:auto auto .7rem auto;
+    text-align: center;
+}
+
+#destiny-name {
+    font-family: 'Roboto';
+    font-size: 1rem;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+#destiny-img {
+    justify-self: center;
+    width: 90%;
+    height:8rem;
+    margin:auto auto auto .5rem;
+}
+
+
+/*Perfil */
+#info-viajero {
+    display:flex;
+}
+#datos-viajero {
+    height: auto;
+    display: flow-root;
+    line-height: 1.5rem;
+    margin-top: 7%;
+}
+.user-name {
+    font-family: 'roboto';
+    font-size: 1.3rem;
+    color: #4F4F4F;
+    margin: 0 auto auto 0;
+}
+.user-info {
+    font-family: 'roboto';
+    font-size: .8rem;
+    color: #4F4F4F;
+    margin: 0 auto 0 auto;
+    text-align: start;
+}
+.img-profile {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    margin-right: 40%;
+    margin: 1rem;
+    display: block;
+    text-align: center;
+}
+#iconos{
+    text-align: start;
+    margin: 0.5rem auto 0.5rem 1rem;
+}
+.iconos-profile {
+    margin-left:1%;
+    font-size: 1.4rem;
+    color: #4F4F4F;
+    align-self: auto;
+}
+#intereses { 
+    height: auto;
+    box-sizing: border-box;
+    display: center;
+    overflow: auto;
+} 
+#boxdeinteres {
+    height: auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: .2rem auto .2rem .5rem;
+    display: flex;
+    align-self:auto;
+}
+#titulo-interes {
+    width: auto;
+    height: auto;
+    padding: .5rem; 
+    margin: 0 0 0 .5rem;
+    display: flex;
+    background: #C5E0EF;
+    color: #004ECB;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 0.8rem;;
+}
+#freinds{ 
+    margin-top: auto;    
+    width: auto; 
+    overflow: auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 0.2rem; 
+}
+#mostrar-amigos{  
+    display: flex;
+    height: auto;
+    box-sizing: border-box;
+    margin:auto;
+    align-self:auto;
+}
+#picture-myfreinds{
+    width: 4rem;
+    height: 4em;
+    border-radius: 50%;
+    border: solid #ffff 2px;
+    margin: 0 0 0 .5rem;
+    display: flex;
+}
+#container-mypost{
+    position: auto;
+    margin-top: 1%;    
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 0.2rem;
+    height: auto;
+    overflow: auto;
+}
+#boxmypost {
+    display: flex;
+    width: 100%;
+    margin:auto;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: .3rem;
+}
+#mypost-note{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    height: auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    background: #C5E0EF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 1rem;
+}
+.img-mypost{
+    margin: 2.5%;
+    box-sizing: border-box;
+    width: 95%;
+    height: 100px;
+    object-fit: cover;
+}
+.mylike-comment{
+    font-family: 'roboto';
+    font-size: .7rem;
+    color: #4F4F4F;
+    align-items: left;
+}
+.container-left {
+    display : none;
+}
+
+.container-right {
+    display : none;
+}
+
+.modal-edit{   
+    background-color: #FEFEFE;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 80%;
+    height: auto;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+.edit-profile>span {
+    font-family: 'roboto';
+    font-size: 1rem;
+    margin:auto 0 auto 0;
+    color:#4F4F4F;
+}
+/* Desktop */
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+        .body {
+            background-image: url("./img/backimg.jpg");
+            background-attachment: fixed;
+            margin: 0;        
+            background-size: cover;
+            overflow-y: hidden;
+        }   
+        #login{
+            background: rgba(255, 255, 255, 0.45);
+            height: auto;
+            margin: auto auto auto 60%;
+            margin: 0 auto 0 60%;
+            top: 0;
+            bottom: 0;
+            position: absolute;
+            padding: 2rem;
+        }
+        .logo-inicio {
+            width: 50%;
+            height: auto;
+            margin: 30% auto auto auto;
+        }
+        /*se agregar clase*/
+        .login-container{
+            background-color: #ffff;
+            border-radius: 1rem;
+            border-style: none;
+            line-height: 0.1rem;
+            padding: 1rem 1rem 1rem 1rem;
+            height: auto;
+            margin: 6rem 3rem 3rem 3rem;        
+        }
+        input {
+            width: 60%;
+            display: block;
+            margin: 1rem auto auto auto;
+            padding: 1rem 1rem 0 1rem;
+            border-style: none;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.62);
+            background-color: transparent;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            color: #2979FF;
+            font-size: 1rem;
+            font-weight: 300;
+        }
+        #dataregistro>input::placeholder {
+            color: #2979FF;
+        }
+        .buttonWhite {
+            width: 234px;
+            height: 35px;
+            background: #2979FF;
+            border-radius: 10px;
+            border: transparent;
+            color: #FFFFFF;
+            font-size: 1rem;
+            display: block;
+            margin: 2rem auto auto auto;
+            font-weight: 500;
+        }
+        .buttonWhite:hover {
+            cursor: pointer;
+            color: #4F4F4F;       
+        }
+        #sign-wrong-password>span{
+            font-family: 'Roboto';
+            color: #4f4f4f;
+        }
+        #sign-email-not-found>span{
+            font-family: 'Roboto';
+            color: #4f4f4f;
+        }
+        h4 {
+            color: #4F4F4F;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 400;
+            margin: 1rem 0 1rem .2rem;
+        }
+        h4:hover {
+            color: #2979FF;        
+        }
+        .modal {
+            overflow: hidden;
+        }
+        .modal-content {
+            background: linear-gradient(180deg, #C5E0EF 0%, #C5E0EF 0.01%, #D9EAF4 39.06%, rgba(227, 240, 247, 0.6) 70.83%, rgba(255, 255, 255, 0.24) 100%, rgba(255, 255, 255, 0.2) 100%), #FFFFFF;
+            border-radius: 1rem;
+            width: 30%;
+            height: auto;
+            margin: 6% 5% 4% 65%;    
+        }
+        .modal-edit{   
+            background-color: #FEFEFE;
+            margin: auto auto auto 29.5%;
+            padding: 0.5rem;
+            border-radius: 1rem;
+            width: 30%;
+            height: auto;            
+        }
+        .modal-reminder{   
+            background-color: #FEFEFE;
+            margin: 25% auto auto 29.5%;
+            padding: 0.5rem;
+            border-radius: 1rem;
+            width: 30%;
+            height: auto;            
+        }
+        fieldset {
+            background-color: #EDEDED;
+            border-radius: 1rem;
+            border-style: none;
+            line-height: 0.1rem;
+            padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+            height: auto;
+        }
+        fieldset input {
+            width: 90%;
+        }
+        /* The Close Button */
+        .close-modal {
+            color: #AAAAAA;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .logo {            
+            margin: auto auto auto 0; 
+            width: 11%;
+            height: auto;
+        }
+        .close-modal:hover,
+        .close-modal:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .imgRedonda {
+            border: solid #ffff 3px;
+        }
+        button {
+            font-size: 1rem;  
+        }
+        button:hover {               
+            cursor: pointer;
+            color: #4F4F4F;     
+        }
+        #wall {
+            width: 38%;
+            margin: 0% auto auto auto;
+            position: fixed;
+            left: 25%;
+        }
+        .public {       
+            width: 90%;
+            padding: .2rem;
+            margin: 0.2rem auto .2rem auto; 
+        }
+        #container-post {
+            width: 40%;
+            margin: 12% auto 1% 25%;
+            max-height: 77vh;
+            display: inline-grid;
+            scroll-snap-align: end;    
+            scroll-padding-top: 5%;
+            padding: 0;
+        }
+        #post-note{
+            border-radius: 7px;            
+        }
+        #post-note div {        
+            padding: .3rem 0rem 0rem 0rem; 
+        }
+       
+        .container-right {
+            display: inline-grid;
+            width: 27%;
+            margin: 1% auto 1% auto;
+            position: fixed;
+            right: 5%           
+        }
+        /* barra inferior*/
+        #barra {
+        display: none;
+        width: 100%;
+        background: linear-gradient(180deg, #C5E0EF 0%, #C5E0EF 0.01%, #D9EAF4 39.06%, rgba(227, 240, 247, 0.6) 70.83%, rgba(255, 255, 255, 0.24) 100%, rgba(255, 255, 255, 0.2) 100%), #FFFFFF;
+        transform: rotate(180deg);
+        }    
+        #barra span>i {
+            display: none;
+        }
+        .head {            
+            top: 0;
+            padding: 0.5rem;
+        }
+        .signout {
+            align-items: flex-end;
+            width: 12%;
+            margin-left: auto;
+            padding: .2rem;
+        }
+        .button2 {       
+            margin: 0 auto auto auto;
+            display: none;      
+        }
+        .profile-picture {
+        display: none;
+        }
+        .fa-chevron-left:before {
+            display: none;
+        }
+        #destinos{
+            display: inline-block;
+            flex-direction: column;
+            height: 72vh;
+            overflow-y: scroll;
+            scroll-padding-top: 10%;
+            scroll-snap-align: start;
+        }
+        #destinos::-webkit-scrollbar {
+            width: 8px;     
+            height: 8px;   
+            display: none; 
+        }                
+        #destiny-img:hover {
+            transform: scale(1.1,1.1);
+        }
+        #info-viajero{
+            display: block;
+        }
+        .img-cuadrada{            
+            border-radius: 7px;
+            width: 90%;
+            max-height: 360px;
+            object-fit: cover;
+        }
+        .user-name {            
+            font-size: 1.2rem;           
+            margin: .8rem auto auto auto;
+            text-align: center;
+        }
+        .img-profile {
+            width: 9rem;
+            height: 9rem;
+            border-radius: 50%;
+            margin-right: 40%;
+            margin: auto;
+            display: block;
+        }
+        #box {
+            width: 80%;
+            height: auto;
+            box-sizing: border-box;
+            margin: auto auto .7rem auto;
+            text-align: center;
+        }
+        #destiny-img {
+            justify-self: center;
+            width: 95%;
+            height: 8rem;
+            margin: auto auto auto .5rem;
+            object-fit: cover;
+        }
+        .user-info {
+            font-family: 'roboto';
+            font-size: .9rem;
+            margin: 0 auto 0 auto;
+            text-align: center;
+        }
+         #iconos{
+            text-align: center;
+            margin: auto auto auto auto;
+        }
+        #datos-viajero {
+            height: auto;
+            display: grid;
+            line-height: 1.5rem;
+            margin: 1% auto 1% auto;
+        }
+        h2 {
+            text-align: center;
+            margin: 0.8rem 0 0.8rem 1rem;
+            font-size: 1rem;
+        }
+        .edit-input{            
+            min-width: 350px;
+            
+        }
+        #my-modal-profile {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            /* overflow-y: scroll; */
+            background-color: rgba(0, 0, 0, 0.52);
+            transition: opacity .15s linear;
+            overflow: auto;
+            overflow-y: overlay;           
+        }
+        .modal-content-profile::-webkit-scrollbar {
+            -webkit-appearance: none;
+        }
+        .modal-content-profile {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 0.5rem;
+            border-radius: 1rem;
+            width: 40%;
+            height: auto;
+            margin: 1% auto 5% 25%;            
+        }
+        #mypost-note {            
+            width: 40%;                  
+                       
+        }
+        #boxmypost {
+            box-sizing: border-box;
+            justify-content: flex-start; 
+            padding-left: 3rem;
+        }
+        #mostrar-amigos {
+            justify-content: center;
+        }
+        #boxdeinteres {
+            justify-content: center;
+        }
+        .signout>span:hover {           
+            color: #2979FF;
+        }
+        .copyright {
+            margin-top: 1%;
+        }        
+        
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .body {
+        background-image: url("./img/backimg.jpg");
+        background-attachment: fixed;
+        margin: 0;        
+        background-size: cover;
+        overflow-y: hidden;
+    }   
+    #login{
+        background: rgba(255, 255, 255, 0.45);
+        height: auto;
+        margin: auto auto auto 60%;
+        margin: 0 auto 0 60%;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        padding: 2rem;
+    }
+    .logo-inicio {
+        width: 50%;
+        height: auto;
+        margin: 30% auto auto auto;
+    }
+    /*se agregar clase*/
+    .login-container{
+        background-color: #ffff;
+        border-radius: 1rem;
+        border-style: none;
+        line-height: 0.1rem;
+        padding: 1rem 1rem 1rem 1rem;
+        height: auto;
+        margin: 6rem 3rem 3rem 3rem;        
+    }
+    input {
+        width: 60%;
+        display: block;
+        margin: 1rem auto auto auto;
+        padding: 1rem 1rem 0 1rem;
+        border-style: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.62);
+        background-color: transparent;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        color: #2979FF;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    #dataregistro>input::placeholder {
+        color: #2979FF;
+    }
+    .buttonWhite {
+        width: 234px;
+        height: 35px;
+        background: #2979FF;
+        border-radius: 10px;
+        border: transparent;
+        color: #FFFFFF;
+        font-size: 1rem;
+        display: block;
+        margin: 2rem auto auto auto;
+        font-weight: 500;
+    }
+    .buttonWhite:hover {
+        cursor: pointer;
+        color: #4F4F4F;       
+    }
+    #sign-wrong-password>span{
+        font-family: 'Roboto';
+        color: #4f4f4f;
+    }
+    #sign-email-not-found>span{
+        font-family: 'Roboto';
+        color: #4f4f4f;
+    }
+    h4 {
+        color: #4F4F4F;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 1rem 0 1rem .2rem;
+    }
+    h4:hover {
+        color: #2979FF;        
+    }
+    .modal {
+        overflow: hidden;
+    }
+    .modal-content {
+        background: linear-gradient(180deg, #C5E0EF 0%, #C5E0EF 0.01%, #D9EAF4 39.06%, rgba(227, 240, 247, 0.6) 70.83%, rgba(255, 255, 255, 0.24) 100%, rgba(255, 255, 255, 0.2) 100%), #FFFFFF;
+        border-radius: 1rem;
+        width: 30%;
+        height: auto;
+        margin: 6% 5% 4% 65%;    
+    }
+    .modal-edit{   
+        background-color: #FEFEFE;
+        margin: auto auto auto 29.5%;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        width: 30%;
+        height: auto;            
+    }
+    .modal-reminder{   
+        background-color: #FEFEFE;
+        margin: 25% auto auto 29.5%;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        width: 30%;
+        height: auto;            
+    }
+    fieldset {
+        background-color: #EDEDED;
+        border-radius: 1rem;
+        border-style: none;
+        line-height: 0.1rem;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        height: auto;
+    }
+    fieldset input {
+        width: 90%;
+    }
+    /* The Close Button */
+    .close-modal {
+        color: #AAAAAA;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .logo {            
+        margin: auto auto auto 0; 
+        width: 11%;
+        height: auto;
+    }
+    .close-modal:hover,
+    .close-modal:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .imgRedonda {
+        border: solid #ffff 3px;
+    }
+    button {
+        font-size: 1rem;  
+    }
+    button:hover {               
+        cursor: pointer;
+        color: #4F4F4F;     
+    }
+    #wall {
+        width: 38%;
+        margin: 0% auto auto auto;
+        position: fixed;
+        left: 25%;
+    }
+    .public {       
+        width: 90%;
+        padding: .2rem;
+        margin: 0.2rem auto .2rem auto; 
+    }
+    #container-post {
+        width: 40%;
+        margin: 9% auto 1% 25%;
+        max-height: 77vh;
+        display: inline-grid;
+        scroll-snap-align: end;    
+        scroll-padding-top: 5%;
+        padding: 0;
+    }
+    #post-note{
+        border-radius: 7px;            
+    }
+    #post-note div {        
+        padding: .3rem 0rem 0rem 0rem; 
+    }
+   
+    .container-right {
+        display: inline-grid;
+        max-width: 25%;
+        margin: 1% auto 1% auto;
+        position: fixed;
+        right: 5%           
+    }
+    /* barra inferior*/
+    #barra {
+    display: none;
+    width: 100%;
+    background: linear-gradient(180deg, #C5E0EF 0%, #C5E0EF 0.01%, #D9EAF4 39.06%, rgba(227, 240, 247, 0.6) 70.83%, rgba(255, 255, 255, 0.24) 100%, rgba(255, 255, 255, 0.2) 100%), #FFFFFF;
+    transform: rotate(180deg);
+    }    
+    #barra span>i {
+        display: none;
+    }
+    .head {            
+        top: 0;
+        padding: 0.5rem;
+    }
+    .signout {
+        align-items: flex-end;
+        width: 12%;
+        margin-left: auto;
+        padding: .2rem;
+    }
+    .button2 {       
+        margin: 0 auto auto auto;
+        display: none;      
+    }
+    .profile-picture {
+    display: none;
+    }
+    .fa-chevron-left:before {
+        display: none;
+    }
+    #destinos{
+        display: inline-block;
+        flex-direction: column;
+        height: 72vh;
+        overflow-y: scroll;
+        scroll-padding-top: 10%;
+        scroll-snap-align: start;
+    }
+    #destinos::-webkit-scrollbar {
+        width: 8px;     
+        height: 8px;   
+        display: none; 
+    }                
+    #destiny-img:hover {
+        transform: scale(1.1,1.1);
+    }
+    #info-viajero{
+        display: block;
+    }
+    .img-cuadrada{            
+        border-radius: 7px;
+        width: 90%;
+        max-height: 360px;
+        object-fit: cover;
+    }
+    .user-name {            
+        font-size: 1.2rem;           
+        margin: .8rem auto auto auto;
+        text-align: center;
+    }
+    .img-profile {
+        width: 9rem;
+        height: 9rem;
+        border-radius: 50%;
+        margin-right: 40%;
+        margin: auto;
+        display: block;
+    }
+    #box {
+        width: 80%;
+        height: auto;
+        box-sizing: border-box;
+        margin: auto auto .7rem auto;
+        text-align: center;
+    }
+    #destiny-img {
+        justify-self: center;
+        width: 95%;
+        height: 8rem;
+        margin: auto auto auto .5rem;
+        object-fit: cover;
+    }
+    .user-info {
+        font-family: 'roboto';
+        font-size: .9rem;
+        margin: 0 auto 0 auto;
+        text-align: center;
+    }
+     #iconos{
+        text-align: center;
+        margin: auto auto auto auto;
+    }
+    #datos-viajero {
+        height: auto;
+        display: grid;
+        line-height: 1.5rem;
+        margin: 1% auto 1% auto;
+    }
+    h2 {
+        text-align: center;
+        margin: 0.8rem 0 0.8rem 1rem;
+        font-size: 1rem;
+    }
+    .edit-input{            
+        min-width: 350px;
+        
+    }
+    #my-modal-profile {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.52);
+        transition: opacity .15s linear;
+    }
+    .modal-content-profile {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        width: 40%;
+        height: auto;
+        margin: 1% auto 5% 25%;
+        overflow: auto;
+        overflow-y: overlay;           
+    }
+    .modal-content-profile::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    #mypost-note {            
+        width: 40%;                  
+                   
+    }
+    #boxmypost {
+        box-sizing: border-box;
+        justify-content: flex-start; 
+        padding-left: 3rem;
+    }
+    #mostrar-amigos {
+        justify-content: center;
+    }
+    #boxdeinteres {
+        justify-content: center;
+    }
+    .signout>span:hover {           
+        color: #2979FF;
+    } 
+    .copyright {
+        margin-top: 1%;
+    }  
+}
+@media screen and (min-width: 1441px) {
+    .body {
+        background-image: url("./img/backimg.jpg");
+        background-attachment: fixed;
+        margin: 0;        
+        background-size: cover;
+        overflow-y: hidden;
+    }   
+    #login{
+        background: rgba(255, 255, 255, 0.45);
+        height: auto;
+        margin: auto auto auto 60%;
+        margin: 0 auto 0 60%;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        padding: 2rem;
+    }
+    .logo-inicio {
+        width: 50%;
+        height: auto;
+        margin: 30% auto auto auto;
+    }
+    /*se agregar clase*/
+    .login-container{
+        background-color: #ffff;
+        border-radius: 1rem;
+        border-style: none;
+        line-height: 0.1rem;
+        padding: 1rem 1rem 1rem 1rem;
+        height: auto;
+        margin: 6rem 3rem 3rem 3rem;        
+    }
+    input {
+        width: 60%;
+        display: block;
+        margin: 1rem auto auto auto;
+        padding: 1rem 1rem 0 1rem;
+        border-style: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.62);
+        background-color: transparent;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        color: #2979FF;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    #dataregistro>input::placeholder {
+        color: #2979FF;
+    }
+    .buttonWhite {
+        width: 234px;
+        height: 35px;
+        background: #2979FF;
+        border-radius: 10px;
+        border: transparent;
+        color: #FFFFFF;
+        font-size: 1rem;
+        display: block;
+        margin: 2rem auto auto auto;
+        font-weight: 500;
+    }
+    .buttonWhite:hover {
+        cursor: pointer;
+        color: #4F4F4F;       
+    }
+    #sign-wrong-password>span{
+        font-family: 'Roboto';
+        color: #4f4f4f;
+    }
+    #sign-email-not-found>span{
+        font-family: 'Roboto';
+        color: #4f4f4f;
+    }
+    h4 {
+        color: #4F4F4F;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 1rem 0 1rem .2rem;
+    }
+    h4:hover {
+        color: #2979FF;        
+    }
+    .modal {
+        overflow: hidden;
+    }
+    .modal-content {
+        background: linear-gradient(180deg, #C5E0EF 0%, #C5E0EF 0.01%, #D9EAF4 39.06%, rgba(227, 240, 247, 0.6) 70.83%, rgba(255, 255, 255, 0.24) 100%, rgba(255, 255, 255, 0.2) 100%), #FFFFFF;
+        border-radius: 1rem;
+        width: 30%;
+        height: auto;
+        margin: 6% 5% 4% 65%;    
+    }
+    .modal-edit{   
+        background-color: #FEFEFE;
+        margin: auto auto auto 29.5%;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        width: 30%;
+        height: auto;            
+    }
+    .modal-reminder{   
+        background-color: #FEFEFE;
+        margin: 25% auto auto 29.5%;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        width: 30%;
+        height: auto;            
+    }
+    fieldset {
+        background-color: #EDEDED;
+        border-radius: 1rem;
+        border-style: none;
+        line-height: 0.1rem;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        height: auto;
+    }
+    fieldset input {
+        width: 90%;
+    }
+    /* The Close Button */
+    .close-modal {
+        color: #AAAAAA;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .logo {            
+        margin: auto auto auto 0; 
+        width: 11%;
+        height: auto;
+    }
+    .close-modal:hover,
+    .close-modal:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .imgRedonda {
+        border: solid #ffff 3px;
+    }
+    button {
+        font-size: 1rem;  
+    }
+    button:hover {               
+        cursor: pointer;
+        color: #4F4F4F;     
+    }
+    #wall {
+        width: 38%;
+        margin: 0% auto auto auto;
+        position: fixed;
+        left: 25%;
+    }
+    .public {       
+        width: 90%;
+        padding: .2rem;
+        margin: 0.2rem auto .2rem auto; 
+    }
+    #container-post {
+        max-width: 35%;
+        margin: 9% auto 1% 27%;
+        max-height: 75vh;
+        display: inline-grid;
+        scroll-snap-align: end;    
+        scroll-padding-top: 5%;
+        padding: 0;
+    }
+    #publish{
+        text-align: center;
+    }
+    #post-note{
+        border-radius: 7px;            
+    }
+    #post-note div {        
+        padding: .3rem 0rem 0rem 0rem; 
+    }
+   
+    .container-right {
+        display: inline-grid;
+        max-width: 25%;
+        margin: 1% auto 1% auto;
+        position: fixed;
+        right: 5%           
+    }
+    /* barra inferior*/
+    #barra {
+    display: none;
+    width: 100%;
+    background: linear-gradient(180deg, #C5E0EF 0%, #C5E0EF 0.01%, #D9EAF4 39.06%, rgba(227, 240, 247, 0.6) 70.83%, rgba(255, 255, 255, 0.24) 100%, rgba(255, 255, 255, 0.2) 100%), #FFFFFF;
+    transform: rotate(180deg);
+}    
+    #barra span>i {
+        display: none;
+    }
+    .head {            
+        top: 0;
+        padding: 0.5rem;
+    }
+    .signout {
+        align-items: flex-end;
+        width: 12%;
+        margin-left: auto;
+        padding: .2rem;
+    }
+    .button2 {       
+        margin: 0 auto auto auto;
+        display: none;      
+    }
+    .profile-picture {
+    display: none;
+    }
+    .fa-chevron-left:before {
+        display: none;
+    }
+    #destinos{
+        display: inline-block;
+        flex-direction: column;
+        height: 75vh;
+        overflow-y: scroll;
+        scroll-padding-top: 10%;
+        scroll-snap-align: start;
+    }
+    #destinos::-webkit-scrollbar {
+        width: 8px;     
+        height: 8px;   
+        display: none; 
+    }                
+    #destiny-img:hover {
+        transform: scale(1.1,1.1);
+    }
+    #info-viajero{
+        display: block;
+    }
+    .img-cuadrada{            
+        border-radius: 7px;
+        width: 90%;
+        max-height: 360px;
+        object-fit: cover;
+    }
+    .user-name {            
+        font-size: 1.2rem;           
+        margin: .8rem auto auto auto;
+        text-align: center;
+    }
+    .img-profile {
+        width: 9rem;
+        height: 9rem;
+        border-radius: 50%;
+        margin-right: 40%;
+        margin: auto;
+        display: block;
+    }
+    #box {
+        width: 80%;
+        height: auto;
+        box-sizing: border-box;
+        margin: auto auto .7rem auto;
+        text-align: center;
+    }
+    #destiny-img {
+        justify-self: center;
+        width: 95%;
+        height: 8rem;
+        margin: auto auto auto .5rem;
+        object-fit: cover;
+    }
+    .user-info {
+        font-family: 'roboto';
+        font-size: .9rem;
+        margin: 0 auto 0 auto;
+        text-align: center;
+    }
+     #iconos{
+        text-align: center;
+        margin: auto auto auto auto;
+    }
+    #datos-viajero {
+        height: auto;
+        display: grid;
+        line-height: 1.5rem;
+        margin: 1% auto 1% auto;
+    }
+    h2 {
+        text-align: center;
+        margin: 0.8rem 0 0.8rem 1rem;
+        font-size: 1rem;
+    }
+    .edit-input{            
+        min-width: 350px;
+        
+    }
+    #my-modal-profile {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.52);
+        transition: opacity .15s linear;
+    }
+    .modal-content-profile {
+        background-color: rgb(254, 254, 254);
+        padding: 0.5rem;
+        border-radius: 1rem;
+        width: 40%;
+        max-height: 85vh;
+        margin: 3% auto 5% 30%;
+        overflow: auto;
+        overflow-y: overlay;           
+    }
+    .modal-content-profile::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    #mypost-note {            
+        width: 40%;                  
+                   
+    }
+    #boxmypost {
+        box-sizing: border-box;
+        justify-content: flex-start; 
+        padding-left: 3rem;
+    }
+    #mostrar-amigos {
+        justify-content: center;
+    }
+    #boxdeinteres {
+        justify-content: center;
+    }
+    .signout>span:hover {           
+        color: #2979FF;
+    }  
+    .copyright {
+        margin-top: 1%;
+    }  
+}
